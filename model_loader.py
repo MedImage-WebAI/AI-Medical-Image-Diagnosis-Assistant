@@ -4,10 +4,10 @@ import tensorflow as tf
 
 # Dictionary mapping disease -> Hugging Face repo (updated to your account)
 MODEL_REPOS = {
-    "pneumonia": "Saitama30/pneumonia-model",
-    "malaria": "Saitama30/malaria-model",
-    "dental_cavity": "Saitama30/dental-cavity-model",
-    "brain_tumor": "Saitama30/brain-tumor-model"
+    "pneumonia": "Saitama30/pneumonia-model.h5",
+    "malaria": "Saitama30/malaria-model.h5",
+    "dental_cavity": "Saitama30/dental-cavity-model.h5",
+    "brain_tumor": "Saitama30/brain-tumor-model.h5"
 }
 
 def load_model_from_hf(disease_name, filename):
