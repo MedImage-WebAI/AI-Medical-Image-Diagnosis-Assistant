@@ -1,20 +1,23 @@
-# Core libraries
+# --- Core App ---
 streamlit==1.39.0
+numpy==2.3.2
+pandas==2.2.3
+matplotlib==3.9.2
+
+# --- Deep Learning ---
 tensorflow==2.20.0
 keras==3.11.1
-numpy==1.26.4
-pandas==2.2.3
+
+# --- Image Processing ---
+opencv-python==4.10.0.84
 Pillow==10.4.0
-opencv-python-headless==4.10.0.84
+
+# --- Hugging Face + Utils ---
+huggingface-hub==0.25.2
+requests==2.32.3
+
+# --- Optional ML tools ---
 scikit-learn==1.5.2
 
-# Model handling
-huggingface-hub==0.26.2
-
-# Visualization
-matplotlib==3.9.2
-seaborn==0.13.2
-
-# Utilities
-requests==2.32.3
-tqdm==4.66.5
+# --- Visualization & Debugging ---
+rich==14.2.0
