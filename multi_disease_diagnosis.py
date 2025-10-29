@@ -9,6 +9,13 @@ import matplotlib.pyplot as plt
 import matplotlib.cm as cm # For colormaps like 'jet'
 from PIL import Image
 import io # To handle byte stream for uploaded file
+from model_loader import load_model_from_hf
+
+# Load models from Hugging Face (username: Saitama30)
+pneumonia_model = load_model_from_hf("pneumonia", "pneumonia_model.h5")
+malaria_model = load_model_from_hf("malaria", "malaria_model.h5")
+dental_model = load_model_from_hf("dental_cavity", "dental_cavity_detector.h5")
+brain_tumor_model = load_model_from_hf("brain_tumor", "brain_tumor_model.h5")
 
 # --- Configuration ---
 
