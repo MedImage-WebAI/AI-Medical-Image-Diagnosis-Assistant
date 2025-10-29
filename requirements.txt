@@ -9,7 +9,7 @@ tensorflow==2.20.0
 keras==3.11.1
 
 # --- Image Processing ---
-opencv-python==4.10.0.84
+opencv-python-headless==4.10.0.84
 Pillow==10.4.0
 
 # --- Hugging Face + Utils ---
