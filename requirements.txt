@@ -20,4 +20,4 @@ requests==2.32.3
 scikit-learn==1.5.2
 
 # --- Visualization & Debugging ---
-rich==14.2.0
+rich==13.9.2
