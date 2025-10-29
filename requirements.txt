@@ -1,10 +1,20 @@
+# Core libraries
 streamlit==1.39.0
-tensorflow==2.16.1
-keras==3.4.1
-opencv-python-headless==4.10.0.84
+tensorflow==2.20.0
+keras==3.5.0
 numpy==1.26.4
-pillow==10.4.0
-matplotlib==3.9.2
+pandas==2.2.3
+Pillow==10.4.0
+opencv-python-headless==4.10.0.84
 scikit-learn==1.5.2
-protobuf==4.25.3
-h5py==3.11.0
+
+# Model handling
+huggingface-hub==0.26.2
+
+# Visualization
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Utilities
+requests==2.32.3
+tqdm==4.66.5
